@@ -1,0 +1,12 @@
+{
+        "debug": false,
+        "database": {
+                "db": "%%ENV_DB_GMS%%",
+                "max_conns": %%MAX_CONN%%,
+                "max_idle": 100
+        },
+        "listen": "0.0.0.0:2080",
+        "mcs_api": "%%ENV_MCSAPI%%",
+        "radius_account_interval": 600,
+        "skip_auth": false
+}
