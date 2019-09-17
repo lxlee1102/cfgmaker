@@ -8,7 +8,7 @@
         %%ENV_MCSAPI%%
 
     And ensure the environment variable has value, such as:
-        export ENV_DB_PWD="root@127.0.0.1:3306"
+        export ENV_DB_GMS="root@127.0.0.1:3306"
         export MAX_CONN=100
         export ENV_MCSAPI=http://api.mcscon:8080
 
